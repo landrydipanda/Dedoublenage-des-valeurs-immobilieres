@@ -1,6 +1,6 @@
-# Dedoublenage-des-valeurs-immobilieres
+# # Dedoublenage-des-valeurs-immobilieres
 
-# # L'objectif du projet, c'est de détecter les annonces immobilières présentes en doublons dans  différents sites web ou de publicités. 
+# L'objectif du projet, c'est de détecter les annonces immobilières présentes en doublons dans  différents sites web ou de publicités. 
 
 L'approche consiste dans un 1er temps à faire un clustering des biens immobiliers en utilisant uniquement les textes contenus dans la colonne "DESCRIPTION" du dataframe. Ensuite, pour chaque cluster obtenu précédemment, on effectue un micro-cluster en utilisant uniquement certaines colonnes (feature engineering)  pertinentes autres que la colonne "DESCRIPTION".
 
@@ -22,4 +22,4 @@ Description des fichiers joints dans le zip :
 
 * "sans_doublons.csv" : Il contient les biens immobiliers qui ne sont pas en doublons
 
-* "Yanport_test_technique_data_scientist_alternance.ipynb" : notebook python
+* "projet.ipynb" : notebook python
