@@ -1,25 +1,25 @@
-# # Dedoublenage-des-valeurs-immobilieres
+# Undoubling-of-real-estate-values
 
-# L'objectif du projet, c'est de détecter les annonces immobilières présentes en doublons dans  différents sites web ou de publicités. 
+## The main objective of this project is to detect duplicate real estate ads in different avenues (social networks, website, etc.)
 
-L'approche consiste dans un 1er temps à faire un clustering des biens immobiliers en utilisant uniquement les textes contenus dans la colonne "DESCRIPTION" du dataframe. Ensuite, pour chaque cluster obtenu précédemment, on effectue un micro-cluster en utilisant uniquement certaines colonnes (feature engineering)  pertinentes autres que la colonne "DESCRIPTION".
+We do first clustering the properties using only the texts contained in the "DESCRIPTION" column of the dataframe. Then, for each cluster obtained previously, a micro-cluster is created using only certain columns (feature engineering) excluded from the "DESCRIPTION" column.
 
-J'ai obtenu les résultats suivants :
+I got the following results:
 
-* Nombre de biens immobiliers sans doublons :  959
+- Number of properties without duplicates: 959
 
-* Nombre de biens immobiliers avec doublons :  357
+- Number of properties with duplicates: 357
 
-Restitution des résultats :
+### Restitution of results:
 
-J'ai généré un fichier zip qui contient un ensemble de fichiers utiles à l'interprétation des résultats algorithmiques.
+I generated a zip file which contains a set of files useful for the interpretation of the algorithmic results.
 
-Le lien vers le zip est : https://drive.google.com/file/d/1Ng2WbagNHM1y2vE8y9fCztCfLqKW-37k/view?usp=sharing
+The link to the zip is: https://drive.google.com/file/d/1Ng2WbagNHM1y2vE8y9fCztCfLqKW-37k/view?usp=sharing
 
-Description des fichiers joints dans le zip :
+### Description of the files attached in the zip:
 
-* "doublons.csv" : Il contient les biens immobiliers présents en doublons. Un ensemble de biens en doublons est séparé des autres par une ligne vide dans le fichier csv
+-  "duplicates.csv": It contains the properties present in duplicates. A set of duplicate assets is separated from the others by an empty line in the csv file
 
-* "sans_doublons.csv" : Il contient les biens immobiliers qui ne sont pas en doublons
+- "sans_doublons.csv": It contains the properties that are not duplicated
 
-* "projet.ipynb" : notebook python
+-  "project.ipynb": python notebook
