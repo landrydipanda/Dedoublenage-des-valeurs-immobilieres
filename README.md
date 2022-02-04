@@ -1,4 +1,4 @@
-# Undoubling-of-real-estate-values
+# Undoubling-of-real-estate-advertisement
 
 ## The main objective of this project is to detect duplicate real estate ads in different avenues (social networks, website, etc.)
 
